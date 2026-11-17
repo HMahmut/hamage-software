@@ -1,39 +1,48 @@
-# Hamage Software — GitHub Pages site
+# NOVA Capsule · Hamage Software
 
-A static, dependency-free, responsive website for Hamage Software with a NOVA Capsule preview, Turkish/English toggle, contact and support links.
+**A compact, customizable desktop utility for Windows 11.**  
+**Windows 11 için ücretsiz masaüstü yardımcı uygulaması.**
 
-## Files
+[**Get NOVA Capsule free on Microsoft Store**](https://apps.microsoft.com/detail/9P860V6W5ZJQ) · [Website](https://hmahmut.github.io/hamage-software/) · [Privacy policy / Gizlilik politikası](https://hmahmut.github.io/hamage-software/privacy.html) · [Contact / İletişim](mailto:hacibalboa@gmail.com)
 
-- `index.html`: Home, NOVA Capsule overview, support/contact.
-- `privacy.html`: **PRELIMINARY DISCLOSURE, NOT a final privacy policy.** Do not submit it to Microsoft Store without checking the NOVA application source code and replacing the draft.
-- `styles.css`, `main.js`: Design and language switching; no CDN or build needed.
-- `assets/`: Hamage artwork and NOVA UI screenshots from the project owner's conversation.
+**Latest released version:** NOVA Capsule **0.8.4** · Microsoft Store package **1.8.4.0**  
+**Platform:** Windows 11, x64 · **Price:** Free
 
-## Publish to the existing site
+## What can NOVA Capsule do?
 
-The existing repository is `https://github.com/HMahmut/hamage-software`, with Pages configured to publish from the `main` branch root.
+- **Expandable media capsule:** see track details and album art; control playback and volume.
+- **8 visual themes:** including the new **Dynamic Dark** style.
+- **Built-in timer:** quick presets and countdown controls.
+- **Device notifications:** battery, power-adapter and compatible Bluetooth audio status.
+- **Desktop controls:** tray show/hide, visibility and animation preferences, monitor selection.
+- **10 interface languages**, including Arabic right-to-left layout.
+- **Local settings:** preferences are stored on your device.
 
-Option A — Git command line:
+The **0.8.4 update** adds Dynamic Dark, tray visibility improvements, a Windows system notification sound option and performance optimizations. Some adapter and startup scenarios were not fully tested on physical hardware; please report any issues you encounter.
 
-```sh
-git clone https://github.com/HMahmut/hamage-software.git
-cd hamage-software
-# Copy the *contents* of this package into this directory, replacing index.html.
-git add .
-git commit -m "Build Hamage Software website"
-git push origin main
-```
+## Görseller / Visual previews
 
-Option B — GitHub web UI: upload `index.html`, `privacy.html`, `styles.css`, `main.js`, `.nojekyll` and the whole `assets/` directory to the root of the repository with **Add file → Upload files**. Confirm `Commit changes` on `main`. Verify that `assets/` kept its subfolder structure.
+These are **illustrative interface previews**, not exact screenshots of a running app.
 
-Published URLs, after deployment:
-- https://hmahmut.github.io/hamage-software/
-- https://hmahmut.github.io/hamage-software/privacy.html (**draft only**)
+![NOVA Capsule Dynamic Dark media capsule illustration](assets/nova-expanded-v084.svg)
 
-## Before store submission
+![NOVA Capsule 0.8.4 settings illustration with eight visual themes](assets/nova-settings-v084.svg)
 
-Read `PRIVACY_REVIEW.md`, complete a real source-code audit, update `privacy.html`, remove its `noindex` tag if appropriate, update the link label, and validate all public statements. Store name, release date and a Store URL were deliberately not fabricated.
+## Download / İndir
 
-## Practical checks
+**[Install NOVA Capsule free from Microsoft Store](https://apps.microsoft.com/detail/9P860V6W5ZJQ)**
 
-Check responsive layout, keyboard nav, reduced-motion accessibility, language persistence, alt text and all links. Site pages use **relative paths** so they work under the `hamage-software/` project-path URL.
+Search **NOVA Capsule** in Microsoft Store if the link does not open.
+
+## Feedback / Geri bildirim
+
+Issues, feature ideas and comments are welcome: **hacibalboa@gmail.com**  
+Please include your Windows version, NOVA version and reproduction steps when reporting a bug.
+
+## About this repository
+
+This repository hosts the **Hamage Software website** (GitHub Pages): `index.html`, `privacy.html`, `styles.css`, `main.js` and `assets/`.
+
+It **does not contain the NOVA Capsule application source code**. Please do not mistake this website repository for an open-source release of the app. Visual content and brand identity belong to Hamage Software.
+
+[Hamage Software](https://hmahmut.github.io/hamage-software/) · [Optional developer support](https://buymeacoffee.com/hamagesf)
